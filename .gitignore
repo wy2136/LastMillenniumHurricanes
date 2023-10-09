@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#WY: nc files under data
+LMHU/data/*/*.nc
+LMHU/data/*/*.png
+LMHU/data/*/*.out
+LMHU/data/*/*nohup*
+LMHU/data/*/index.html
+LMHU/data/LME/linregress_map/*.nc
+LMHU/data/LME/linregress_map/*.png
+
 # C extensions
 *.so
 
