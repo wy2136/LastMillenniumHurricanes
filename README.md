@@ -11,12 +11,12 @@ North Atlantic hurricanes over the last millennium.
 
 [Fig03.py](LMHU/Fig03.py)
 ![Fig03__rSST__alpha10.png](LMHU/Fig03__rSST__alpha10.png)
-[Fig03__rSST__alpha10.pdf](LMHU/Fig03__rSST__alpha10.pdf)
-[Fig03__FLORrSST.nc](LMHU/Fig03__FLORrSST.nc)
-[Fig03__LMR2019rSST.nc](LMHU/Fig03__LMR2019rSST.nc)
-[Fig03__rSST__pyleoclim__alpha10.png](LMHU/Fig03__rSST__pyleoclim__alpha10.png)
-[Fig03__FLORrSST_pyleoclim.nc](LMHU/Fig03__FLORrSST_pyleoclim.nc)
-[Fig03__LMR2019rSST_pyleoclim.nc](LMHU/Fig03__LMR2019rSST_pyleoclim.nc)
+[Fig03__rSST__alpha10.pdf](LMHU/Fig03__rSST__alpha10.pdf)  
+[Fig03__FLORrSST.nc](LMHU/Fig03__FLORrSST.nc)  
+[Fig03__LMR2019rSST.nc](LMHU/Fig03__LMR2019rSST.nc)  
+[Fig03__rSST__pyleoclim__alpha10.png](LMHU/Fig03__rSST__pyleoclim__alpha10.png)  
+[Fig03__FLORrSST_pyleoclim.nc](LMHU/Fig03__FLORrSST_pyleoclim.nc)  
+[Fig03__LMR2019rSST_pyleoclim.nc](LMHU/Fig03__LMR2019rSST_pyleoclim.nc)  
 
 [Fig04.py](LMHU/Fig04.py)
 ![Fig04.png](LMHU/Fig04.png)
