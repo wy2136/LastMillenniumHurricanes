@@ -28,8 +28,6 @@ Fig03.py \
 Fig04.py \
 FigS_heatmaps_corr_liz_lme_HU.py \
 FigS_heatmaps_corr_liz_lmr.py \
-FigS_maps_corr_tc_rSST_lme.py \
-FigS_maps_corr_tc_SST_lme.py \
 FigS_maps_corr_tc_sst.py \
 FigS_maps_ssta_LME.py \
 FigS_maps_ssta_LMR2019.py \
