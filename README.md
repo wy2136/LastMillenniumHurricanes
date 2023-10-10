@@ -1,9 +1,21 @@
 # LastMillenniumHurricanes
 North Atlantic hurricanes over the last millennium.
 
+## main figures and associated data files
+
 [Fig01.py](LMHU/Fig01.py)
 ![Fig01.png](LMHU/Fig01.png)
-[Fig01.pdf](LMHU/Fig01.pdf)
+[Fig01.pdf](LMHU/Fig01.pdf)  
+[fig_map_sites.py](LMHU/fig_map_sites.py)  
+[fig_map_sites.png](LMHU/fig_map_sites.png)  
+[fig_map_sites.csv](LMHU/fig_map_sites.csv)  
+[fig_scatter_ages.png](LMHU/fig_scatter_ages.py)  
+[fig_scatter_ages.csv](LMHU/fig_scatter_ages.csv)  
+[fig_scatter_ages.png](LMHU/fig_scatter_ages.png)  
+[fig_lines_sedimentHUcount.py](LMHU/fig_lines_sedimentHUcount.py)  
+[fig_lines_sedimentHUcount.py](LMHU/fig_lines_sedimentHUcount.png)  
+[fig_lines_sedimentHUcount.nc](LMHU/fig_lines_sedimentHUcount.nc)  
+[fig_lines_sedimentHUcount__MH.nc](LMHU/fig_lines_sedimentHUcount__MH.nc)  
 
 [Fig02.py](LMHU/Fig02.py)
 ![Fig02.png](LMHU/Fig02.png)
@@ -44,19 +56,10 @@ LMHU/fig_lines_lmrMDRtrop__LMR2018.nc
 LMHU/fig_lines_lmrMDRtrop__LMR2019.nc
 LMHU/fig_lines_lmrMDRtrop.png
 LMHU/fig_lines_lmrMDRtrop.py
-LMHU/fig_lines_sedimentHUcount__MH.nc
-LMHU/fig_lines_sedimentHUcount.nc
-LMHU/fig_lines_sedimentHUcount.png
-LMHU/fig_lines_sedimentHUcount.py
-LMHU/fig_map_sites.csv
-LMHU/fig_map_sites.py
 LMHU/fig_map_ssta__LMR2018.nc
 LMHU/fig_map_ssta__LMR2019.nc
 LMHU/fig_map_ssta.png
 LMHU/fig_map_ssta.py
-LMHU/fig_scatter_ages.csv
-LMHU/fig_scatter_ages.png
-LMHU/fig_scatter_ages.py
 LMHU/FigS_heatmaps_corr_liz_lme_HU.nc
 LMHU/FigS_heatmaps_corr_liz_lme_HU.png
 LMHU/FigS_heatmaps_corr_liz_lme_HU.py
