@@ -1,4 +1,4 @@
-# LastMillenniumHurricanes
+# Last Millennium Hurricanes
 North Atlantic hurricanes over the last millennium.
 
 ### main figures and associated data files
