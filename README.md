@@ -1,6 +1,10 @@
 # Last Millennium Hurricanes
 North Atlantic hurricanes over the last millennium.
 
+### top-level script
+
+[main.sh](LMHU/main.sh)  
+
 ### main figures and associated data files
 
 [Fig01.py](LMHU/Fig01.py)
