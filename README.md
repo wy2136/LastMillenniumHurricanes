@@ -1,7 +1,7 @@
 # LastMillenniumHurricanes
 North Atlantic hurricanes over the last millennium.
 
-## main figures and associated data files
+### main figures and associated data files
 
 [Fig01.py](LMHU/Fig01.py)
 ![Fig01.png](LMHU/Fig01.png)
@@ -28,7 +28,7 @@ North Atlantic hurricanes over the last millennium.
 [fig_lines_lmrMDRtrop.png](LMHU/fig_lines_lmrMDRtrop.png)  
 [fig_lines_lmrMDRtrop__LMR2018.nc](LMHU/fig_lines_lmrMDRtrop__LMR2018.nc)  
 [fig_lines_lmrMDRtrop__LMR2019.nc](LMHU/fig_lines_lmrMDRtrop__LMR2019.nc)  
-[fig_lines_lmrHU])(LMHU/fig_lines_lmrHU.py)  
+[fig_lines_lmrHU.py](LMHU/fig_lines_lmrHU.py)  
 [fig_lines_lmrHU.png](LMHU/fig_lines_lmrHU.png)  
 [fig_lines_lmrHU__LMR2018HU.nc](LMHU/fig_lines_lmrHU__LMR2018HU.nc)  
 [fig_lines_lmrHU__LMR2019HU.nc](LMHU/fig_lines_lmrHU__LMR2019HU.nc)  
@@ -60,44 +60,48 @@ North Atlantic hurricanes over the last millennium.
 [fig_lines_lmeTROPa.nc](LMHU/fig_lines_lmeTROPa.nc)  
 [fig_lines_lmeTROPa__ctl.nc](LMHU/fig_lines_lmeTROPa__ctl.nc)  
 
-LMHU/FigS_heatmaps_corr_liz_lme_HU.nc
-LMHU/FigS_heatmaps_corr_liz_lme_HU.png
-LMHU/FigS_heatmaps_corr_liz_lme_HU.py
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018hu.nc
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018hu_pyleoclim.nc
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018mh.nc
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018mh_pyleoclim.nc
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019hu.nc
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019hu_pyleoclim.nc
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019mh.nc
-LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019mh_pyleoclim.nc
-LMHU/FigS_heatmaps_corr_liz_lmr.png
-LMHU/FigS_heatmaps_corr_liz_lmr.py
-LMHU/FigS_heatmaps_corr_liz_lmr__pyleoclim.png
-LMHU/FigS_maps_corr_tc_rSST_lme_alpha10.png
-LMHU/FigS_maps_corr_tc_rSST_lme.py
-LMHU/FigS_maps_corr_tc_sst__alpha10.png
-LMHU/FigS_maps_corr_tc_sst__FLORSST.nc
-LMHU/FigS_maps_corr_tc_SST_lme_alpha10.png
-LMHU/FigS_maps_corr_tc_SST_lme.py
-LMHU/FigS_maps_corr_tc_sst__LMR2019SST.nc
-LMHU/FigS_maps_corr_tc_sst.py
-LMHU/FigS_maps_ssta_LME__1257-1297.nc
-LMHU/FigS_maps_ssta_LME__1257-1297_rSST.nc
-LMHU/FigS_maps_ssta_LME__1960-2000.nc
-LMHU/FigS_maps_ssta_LME__1960-2000_rSST.nc
-LMHU/FigS_maps_ssta_LME.png
-LMHU/FigS_maps_ssta_LME.py
-LMHU/FigS_maps_ssta_LMR2019__1400-1440.nc
-LMHU/FigS_maps_ssta_LMR2019__1400-1440_rSST.nc
-LMHU/FigS_maps_ssta_LMR2019__1706-1746.nc
-LMHU/FigS_maps_ssta_LMR2019__1706-1746_rSST.nc
-LMHU/FigS_maps_ssta_LMR2019.png
-LMHU/FigS_maps_ssta_LMR2019.py
-LMHU/FigS_pdf_corr_sedimentHU_LME.nc
-LMHU/FigS_pdf_corr_sedimentHU_LME.png
-LMHU/FigS_pdf_corr_sedimentHU_LME.py
-LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2018.nc
-LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2019.nc
-LMHU/FigS_pdf_corr_sedimentHU_LMR.png
-LMHU/FigS_pdf_corr_sedimentHU_LMR.py
+### supplementary figures and data
+
+[FigS_heatmaps_corr_liz_lmr.py](LMHU/FigS_heatmaps_corr_liz_lmr.py)  
+![FigS_heatmaps_corr_liz_lmr.png](LMHU/FigS_heatmaps_corr_liz_lmr.png)  
+[FigS_heatmaps_corr_liz_lmr__lmr2018hu.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018hu.nc)  
+[FigS_heatmaps_corr_liz_lmr__lmr2018mh.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018mh.nc)  
+[FigS_heatmaps_corr_liz_lmr__lmr2019hu.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019hu.nc)  
+[FigS_heatmaps_corr_liz_lmr__lmr2019mh.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019mh.nc)  
+[FigS_heatmaps_corr_liz_lmr__pyleoclim.png](LMHU/FigS_heatmaps_corr_liz_lmr__pyleoclim.png)  
+[FigS_heatmaps_corr_liz_lmr__lmr2018hu_pyleoclim.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018hu_pyleoclim.nc)  
+[FigS_heatmaps_corr_liz_lmr__lmr2018mh_pyleoclim.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2018mh_pyleoclim.nc)  
+[FigS_heatmaps_corr_liz_lmr__lmr2019hu_pyleoclim.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019hu_pyleoclim.nc)  
+[FigS_heatmaps_corr_liz_lmr__lmr2019mh_pyleoclim.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019mh_pyleoclim.nc)  
+
+[FigS_pdf_corr_sedimentHU_LME.py](LMHU/FigS_pdf_corr_sedimentHU_LME.py)  
+![FigS_pdf_corr_sedimentHU_LME.png](LMHU/FigS_pdf_corr_sedimentHU_LME.png)  
+[FigS_pdf_corr_sedimentHU_LME.nc](LMHU/FigS_pdf_corr_sedimentHU_LME.nc)  
+
+[FigS_maps_corr_tc_sst.py](LMHU/FigS_maps_corr_tc_sst.py)  
+![FigS_maps_corr_tc_sst__alpha10.png](LMHU/FigS_maps_corr_tc_sst__alpha10.png)  
+[FigS_maps_corr_tc_sst__FLORSST.nc](LMHU/FigS_maps_corr_tc_sst__FLORSST.nc)  
+[FigS_maps_corr_tc_sst__LMR2019SST.nc](LMHU/FigS_maps_corr_tc_sst__LMR2019SST.nc)  
+
+[FigS_maps_corr_tc_sst__LMR2019SST.nc](LMHU/FigS_maps_ssta_LMR2019.py)  
+![FigS_maps_ssta_LMR2019.png](LMHU/FigS_maps_ssta_LMR2019.png)  
+[FigS_maps_ssta_LMR2019.png](LMHU/FigS_maps_ssta_LMR2019__1400-1440.nc)  
+[FigS_maps_ssta_LMR2019__1400-1440_rSST.nc](LMHU/FigS_maps_ssta_LMR2019__1400-1440_rSST.nc)  
+[FigS_maps_ssta_LMR2019__1706-1746.nc](LMHU/FigS_maps_ssta_LMR2019__1706-1746.nc)  
+[FigS_maps_ssta_LMR2019__1706-1746_rSST.nc](LMHU/FigS_maps_ssta_LMR2019__1706-1746_rSST.nc)  
+
+[FigS_maps_ssta_LME.py](LMHU/FigS_maps_ssta_LME.py)  
+![FigS_maps_ssta_LME.png](LMHU/FigS_maps_ssta_LME.png)  
+[FigS_maps_ssta_LME__1257-1297.nc](LMHU/FigS_maps_ssta_LME__1257-1297.nc)  
+[FigS_maps_ssta_LME__1257-1297_rSST.nc](LMHU/FigS_maps_ssta_LME__1257-1297_rSST.nc)  
+[FigS_maps_ssta_LME__1960-2000.nc](LMHU/FigS_maps_ssta_LME__1960-2000.nc)  
+[FigS_maps_ssta_LME__1960-2000_rSST.n](LMHU/FigS_maps_ssta_LME__1960-2000_rSST.nc)  
+
+[FigS_heatmaps_corr_liz_lme_HU.py](LMHU/FigS_heatmaps_corr_liz_lme_HU.py)  
+![FigS_heatmaps_corr_liz_lme_HU.py](LMHU/FigS_heatmaps_corr_liz_lme_HU.png)   
+[FigS_heatmaps_corr_liz_lme_HU.nc](LMHU/FigS_heatmaps_corr_liz_lme_HU.nc)  
+
+[FigS_pdf_corr_sedimentHU_LMR.py](LMHU/FigS_pdf_corr_sedimentHU_LMR.py)  
+![FigS_pdf_corr_sedimentHU_LMR.png](LMHU/FigS_pdf_corr_sedimentHU_LMR.png)  
+[FigS_pdf_corr_sedimentHU_LMR__lmr2018.nc](LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2018.nc)  
+[FigS_pdf_corr_sedimentHU_LMR__lmr2019.nc](LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2019.nc)  
