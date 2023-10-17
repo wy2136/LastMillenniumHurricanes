@@ -35,9 +35,10 @@ ifile = 'data/Vecchi2021/humh_adjusted_lowpass40.nc'
 ifile_cached = __file__.replace('.py', '__MH.nc')
 if not os.path.exists(ifile_cached): run_shell(f'cp {ifile} {ifile_cached}')
 da_mh = xr.open_dataset(ifile_cached)['MH'].sel(year=slice(1870, 2000))
+da_mhlf = xr.open_dataset(ifile_cached)['MHlandfall'].sel(year=slice(1870, 2000)) #landfall major hurricanes
 print('[loaded]:', ifile_cached)
 
-def wyplot(ax=None, MHon=False):
+def wyplot(ax=None, MHon=False, landfallMHon=True):
     """MHon: if shows Major Hurricanes"""
     if ax is None:
         fig, ax = plt.subplots(figsize=(8,3))
@@ -77,6 +78,14 @@ def wyplot(ax=None, MHon=False):
         ax_twin = ax.twinx()
         ax_twin.fill_between(da_mh.year, *da_mh.sel(quantile=[0.025, 0.975]), alpha=alpha, color='k')
         da_mh.sel(quantile=0.5).plot(lw=2, color='k', ls='--', ax=ax_twin, label='modern MH record')
+        if landfallMHon:
+            #shift/scale landfall MH to have the same mean and std as the MH
+            mhMean = da_mh.sel(quantile=0.5).mean()
+            mhSTD = da_mh.sel(quantile=0.5).std()
+            mhlfMean = da_mhlf.mean()
+            mhlfSTD = da_mhlf.std()
+            da_ = (da_mhlf - mhlfMean)/mhlfSTD * mhSTD + mhMean
+            da_.plot(lw=2, color='k', ls=':', ax=ax_twin, label='modern landfall MH record (scaled)')
         #reset the ylim of ax_twin
         huMean = da_gv.sel(quantile=0.5).mean()
         huSTD = da_gv.sel(quantile=0.5).std()
@@ -103,9 +112,9 @@ def wyplot(ax=None, MHon=False):
 if __name__ == '__main__':
     from wyconfig import * #my plot settings
     plt.close()
-    wyplot(MHon=True)
     wyplot(MHon=False)
-    
+    #fig,ax = plt.subplots()
+    #wyplot(MHon=True, ax=ax)
     
     #savefig
     if len(sys.argv)>1 and 'savefig' in sys.argv[1:] or 's' in sys.argv:
@@ -114,6 +123,18 @@ if __name__ == '__main__':
             wysavefig(figname, overwritefig=True)
         else:
             wysavefig(figname)
+
+    fig,ax = plt.subplots()
+    wyplot(MHon=True, landfallMHon=True, ax=ax)
+
+    #savefig
+    if len(sys.argv)>1 and 'savefig' in sys.argv[1:] or 's' in sys.argv:
+        figname = __file__.replace('.py', f'__MHon.png')
+        if 'overwritefig' in sys.argv[1:] or 'o' in sys.argv:
+            wysavefig(figname, overwritefig=True)
+        else:
+            wysavefig(figname)
+
     tt.check(f'**Done**')
     plt.show()
     
