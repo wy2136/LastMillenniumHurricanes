@@ -24,13 +24,28 @@ savefig="savefig" #save figure
 overwritefig=overwritefig #overwrite old figure
 #savefig=" " #do not save figure
 #overwritefig=" " #do not overwrite old figure if save figure; archive old figure
+
+#tmp
+python $pyscript $savefig $overwritefig wymax MHnoCO2 pyleoclim &
+python $pyscript $savefig $overwritefig wymax MHnoCO2 pyleoclim 2018 &
+exit 0
+
 python $pyscript $savefig $overwritefig wymedian &
 python $pyscript $savefig $overwritefig wymax &
 python $pyscript $savefig $overwritefig wymax 2018 &
 python $pyscript $savefig $overwritefig wymax wCaySal &
 python $pyscript $savefig $overwritefig wymax pyleoclim &
 python $pyscript $savefig $overwritefig wymax pyleoclim 2018 &
-
+# MH
+python $pyscript $savefig $overwritefig wymax MH &
+python $pyscript $savefig $overwritefig wymax MH 2018 &
+python $pyscript $savefig $overwritefig wymax MH pyleoclim &
+python $pyscript $savefig $overwritefig wymax MH pyleoclim 2018 &
+# MHnoCO2
+python $pyscript $savefig $overwritefig wymax MHnoCO2 &
+python $pyscript $savefig $overwritefig wymax MHnoCO2 2018 &
+python $pyscript $savefig $overwritefig wymax MHnoCO2 pyleoclim &
+python $pyscript $savefig $overwritefig wymax MHnoCO2 pyleoclim 2018 &
 
 pyscript="corr_table_sedimentHU_LME.py"
 python $pyscript $savefig $overwritefig wymax &

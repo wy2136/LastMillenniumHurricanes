@@ -28,13 +28,14 @@ ds_lmr2019_hu = xr.open_dataset(ifile_cached)
 print('[loaded]:', ifile_cached, 'from', ifile)
 
 #ifile = 'data/corr_table/corr_table_sedimentHUnoCaySal_vs_LMR2019MH_850-1850.nc'
-ifile = 'data/corr_table/corr_table_sedimentMaxWyHUnoCaySal_vs_LMR2019MH_850-1850.nc' #wy 2023-09-28
+#ifile = 'data/corr_table/corr_table_sedimentMaxWyHUnoCaySal_vs_LMR2019MH_850-1850.nc' #wy 2023-09-28
+ifile = 'data/corr_table/corr_table_sedimentMaxWyHUnoCaySal_vs_LMR2019MHnoCO2_850-1850.nc' #wy 2023-11-10, use MHnoCO2 instead of MH
 if pyleoclim: ifile = ifile.replace('.nc', '_pyleoclim.nc')
 #print(f'{ifile = }')
 #ds_lmr2019_mh = xr.open_dataset(ifile)
 ifile_cached = __file__.replace('.py', '__lmr2019mh.nc')
 if pyleoclim: ifile_cached = ifile_cached.replace('.nc', '_pyleoclim.nc')
-if not os.path.exists(ifile_cached): run_shell(f'cp {ifile} {ifile_cached}')
+if not os.path.exists(ifile_cached) or 'od' in sys.argv: run_shell(f'cp {ifile} {ifile_cached}')
 ds_lmr2019_mh = xr.open_dataset(ifile_cached)
 print('[loaded]:', ifile_cached, 'from', ifile)
 
@@ -50,13 +51,14 @@ ds_lmr2018_hu = xr.open_dataset(ifile_cached)
 print('[loaded]:', ifile_cached, 'from', ifile)
 
 #ifile = 'data/corr_table/corr_table_sedimentHUnoCaySal_vs_LMR2018MH_850-1850.nc'
-ifile = 'data/corr_table/corr_table_sedimentMaxWyHUnoCaySal_vs_LMR2018MH_850-1850.nc' #wy 2023-09-28
+#ifile = 'data/corr_table/corr_table_sedimentMaxWyHUnoCaySal_vs_LMR2018MH_850-1850.nc' #wy 2023-09-28
+ifile = 'data/corr_table/corr_table_sedimentMaxWyHUnoCaySal_vs_LMR2018MHnoCO2_850-1850.nc' #wy 2023-11-10
 if pyleoclim: ifile = ifile.replace('.nc', '_pyleoclim.nc')
 #print(f'{ifile = }')
 #ds_lmr2018_mh = xr.open_dataset(ifile)
 ifile_cached = __file__.replace('.py', '__lmr2018mh.nc')
 if pyleoclim: ifile_cached = ifile_cached.replace('.nc', '_pyleoclim.nc')
-if not os.path.exists(ifile_cached): run_shell(f'cp {ifile} {ifile_cached}')
+if not os.path.exists(ifile_cached) or 'od' in sys.argv: run_shell(f'cp {ifile} {ifile_cached}')
 ds_lmr2018_mh = xr.open_dataset(ifile_cached)
 print('[loaded]:', ifile_cached, 'from', ifile)
 

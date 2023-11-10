@@ -20,6 +20,7 @@ if __name__ == '__main__':
 #params from sys.argv
 lmr = 2018 if len(sys.argv)>1 and '2018' in sys.argv[1:] else 2019
 daname = 'MH' if len(sys.argv)>1 and 'MH' in sys.argv[1:] else 'HU'
+daname = 'MHnoCO2' if len(sys.argv)>1 and 'MHnoCO2' in sys.argv[1:] else daname
 wCaySal = True if len(sys.argv)>1 and 'wCaySal' in sys.argv[1:] else False
 noCaySal_noCaicos = True if len(sys.argv)>1 and 'noCaySal_noCaicos' in sys.argv[1:] else False
 pyleoclim = True if len(sys.argv)>1 and 'pyleoclim' in sys.argv[1:] else False
