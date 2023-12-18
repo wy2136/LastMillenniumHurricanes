@@ -56,7 +56,7 @@ North Atlantic hurricanes over the last millennium.
 [fig_lines_lmeHU.png](LMHU/fig_lines_lmeHU.png)  
 [fig_lines_lmeHU.nc](LMHU/fig_lines_lmeHU.nc)  
 [fig_lines_lmeHU__ctl.nc](LMHU/fig_lines_lmeHU__ctl.nc)  
-[fig_lines_LMErMDRa](LMHU/fig_lines_LMErMDRa.py)  
+[fig_lines_LMErMDRa.py](LMHU/fig_lines_LMErMDRa.py)  
 [fig_lines_LMErMDRa.png](LMHU/fig_lines_LMErMDRa.png)  
 [fig_lines_LMErMDRa.nc](LMHU/fig_lines_LMErMDRa.nc)  
 [fig_lines_LMErMDRa__ctl.nc](LMHU/fig_lines_LMErMDRa__ctl.nc)  
@@ -88,9 +88,9 @@ North Atlantic hurricanes over the last millennium.
 [FigS_maps_corr_tc_sst__FLORSST.nc](LMHU/FigS_maps_corr_tc_sst__FLORSST.nc)  
 [FigS_maps_corr_tc_sst__LMR2019SST.nc](LMHU/FigS_maps_corr_tc_sst__LMR2019SST.nc)  
 
-[FigS_maps_corr_tc_sst__LMR2019SST.nc](LMHU/FigS_maps_ssta_LMR2019.py)  
+[FigS_maps_corr_tc_sst__LMR2019SST.py](LMHU/FigS_maps_ssta_LMR2019.py)  
 ![FigS_maps_ssta_LMR2019.png](LMHU/FigS_maps_ssta_LMR2019.png)  
-[FigS_maps_ssta_LMR2019.png](LMHU/FigS_maps_ssta_LMR2019__1400-1440.nc)  
+[FigS_maps_ssta_LMR2019__1400-1440.nc](LMHU/FigS_maps_ssta_LMR2019__1400-1440.nc)  
 [FigS_maps_ssta_LMR2019__1400-1440_rSST.nc](LMHU/FigS_maps_ssta_LMR2019__1400-1440_rSST.nc)  
 [FigS_maps_ssta_LMR2019__1706-1746.nc](LMHU/FigS_maps_ssta_LMR2019__1706-1746.nc)  
 [FigS_maps_ssta_LMR2019__1706-1746_rSST.nc](LMHU/FigS_maps_ssta_LMR2019__1706-1746_rSST.nc)  
@@ -100,10 +100,10 @@ North Atlantic hurricanes over the last millennium.
 [FigS_maps_ssta_LME__1257-1297.nc](LMHU/FigS_maps_ssta_LME__1257-1297.nc)  
 [FigS_maps_ssta_LME__1257-1297_rSST.nc](LMHU/FigS_maps_ssta_LME__1257-1297_rSST.nc)  
 [FigS_maps_ssta_LME__1960-2000.nc](LMHU/FigS_maps_ssta_LME__1960-2000.nc)  
-[FigS_maps_ssta_LME__1960-2000_rSST.n](LMHU/FigS_maps_ssta_LME__1960-2000_rSST.nc)  
+[FigS_maps_ssta_LME__1960-2000_rSST.nc](LMHU/FigS_maps_ssta_LME__1960-2000_rSST.nc)  
 
 [FigS_heatmaps_corr_liz_lme_HU.py](LMHU/FigS_heatmaps_corr_liz_lme_HU.py)  
-![FigS_heatmaps_corr_liz_lme_HU.py](LMHU/FigS_heatmaps_corr_liz_lme_HU.png)   
+![FigS_heatmaps_corr_liz_lme_HU.png](LMHU/FigS_heatmaps_corr_liz_lme_HU.png)   
 [FigS_heatmaps_corr_liz_lme_HU.nc](LMHU/FigS_heatmaps_corr_liz_lme_HU.nc)  
 
 [FigS_pdf_corr_sedimentHU_LMR.py](LMHU/FigS_pdf_corr_sedimentHU_LMR.py)  
