@@ -79,9 +79,10 @@ North Atlantic hurricanes over the last millennium.
 [FigS_heatmaps_corr_liz_lmr__lmr2019hu_pyleoclim.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019hu_pyleoclim.nc)  
 [FigS_heatmaps_corr_liz_lmr__lmr2019mh_pyleoclim.nc](LMHU/FigS_heatmaps_corr_liz_lmr__lmr2019mh_pyleoclim.nc)  
 
-[FigS_pdf_corr_sedimentHU_LME.py](LMHU/FigS_pdf_corr_sedimentHU_LME.py)  
-![FigS_pdf_corr_sedimentHU_LME.png](LMHU/FigS_pdf_corr_sedimentHU_LME.png)  
-[FigS_pdf_corr_sedimentHU_LME.nc](LMHU/FigS_pdf_corr_sedimentHU_LME.nc)  
+[FigS_pdf_corr_sedimentHU_LMR.py](LMHU/FigS_pdf_corr_sedimentHU_LMR.py)  
+![FigS_pdf_corr_sedimentHU_LMR.png](LMHU/FigS_pdf_corr_sedimentHU_LMR.png)  
+[FigS_pdf_corr_sedimentHU_LMR__lmr2018.nc](LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2018.nc)  
+[FigS_pdf_corr_sedimentHU_LMR__lmr2019.nc](LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2019.nc)  
 
 [FigS_maps_corr_tc_sst.py](LMHU/FigS_maps_corr_tc_sst.py)  
 ![FigS_maps_corr_tc_sst__alpha10.png](LMHU/FigS_maps_corr_tc_sst__alpha10.png)  
@@ -106,7 +107,6 @@ North Atlantic hurricanes over the last millennium.
 ![FigS_heatmaps_corr_liz_lme_HU.png](LMHU/FigS_heatmaps_corr_liz_lme_HU.png)   
 [FigS_heatmaps_corr_liz_lme_HU.nc](LMHU/FigS_heatmaps_corr_liz_lme_HU.nc)  
 
-[FigS_pdf_corr_sedimentHU_LMR.py](LMHU/FigS_pdf_corr_sedimentHU_LMR.py)  
-![FigS_pdf_corr_sedimentHU_LMR.png](LMHU/FigS_pdf_corr_sedimentHU_LMR.png)  
-[FigS_pdf_corr_sedimentHU_LMR__lmr2018.nc](LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2018.nc)  
-[FigS_pdf_corr_sedimentHU_LMR__lmr2019.nc](LMHU/FigS_pdf_corr_sedimentHU_LMR__lmr2019.nc)  
+[FigS_pdf_corr_sedimentHU_LME.py](LMHU/FigS_pdf_corr_sedimentHU_LME.py)  
+![FigS_pdf_corr_sedimentHU_LME.png](LMHU/FigS_pdf_corr_sedimentHU_LME.png)  
+[FigS_pdf_corr_sedimentHU_LME.nc](LMHU/FigS_pdf_corr_sedimentHU_LME.nc)  
