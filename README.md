@@ -13,7 +13,7 @@ North Atlantic hurricanes over the last millennium.
 [fig_map_sites.py](LMHU/fig_map_sites.py)  
 [fig_map_sites.png](LMHU/fig_map_sites.png)  
 [fig_map_sites.csv](LMHU/fig_map_sites.csv)  
-[fig_scatter_ages.png](LMHU/fig_scatter_ages.py)  
+[fig_scatter_ages.py](LMHU/fig_scatter_ages.py)  
 [fig_scatter_ages.csv](LMHU/fig_scatter_ages.csv)  
 [fig_scatter_ages.png](LMHU/fig_scatter_ages.png)  
 [fig_lines_sedimentHUcount.py](LMHU/fig_lines_sedimentHUcount.py)  
